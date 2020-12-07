@@ -38,12 +38,12 @@ $EndComp
 $Comp
 L Memory_Flash:MX25R3235FM2xx1 U?
 U 1 1 5FC2EF18
-P 5200 6750
-F 0 "U?" H 5744 6796 50  0000 L CNN
-F 1 "MX25L8035" H 5744 6705 50  0000 L CNN
-F 2 "Package_SO:SOP-8_5.28x5.23mm_P1.27mm" H 5200 6150 50  0001 C CNN
-F 3 "http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf" H 5200 6750 50  0001 C CNN
-	1    5200 6750
+P 11800 5950
+F 0 "U?" H 12344 5996 50  0000 L CNN
+F 1 "MX25U8035F" H 12344 5905 50  0000 L CNN
+F 2 "Package_SO:SOP-8_5.28x5.23mm_P1.27mm" H 11800 5350 50  0001 C CNN
+F 3 "http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf" H 11800 5950 50  0001 C CNN
+	1    11800 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -249,7 +249,7 @@ F 3 "~" H 14050 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7550 2400 0    50   Input ~ 0
-VCC
+V1v8
 Wire Wire Line
 	7550 2400 7650 2400
 Wire Wire Line
@@ -454,7 +454,7 @@ Wire Wire Line
 Text GLabel 8850 4200 2    50   Input ~ 0
 SWDIO
 Text GLabel 5400 8300 0    50   Input ~ 0
-VCC
+V1v8
 Text GLabel 5400 8200 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -479,8 +479,6 @@ Text GLabel 7050 7100 0    50   Input ~ 0
 d3p55-PD8
 Text GLabel 7050 7300 0    50   Input ~ 0
 d5p57-PD10
-Text Notes 12050 4450 0    63   ~ 0
-33\n32\n31\n30\n29\n28\n27\n26\n25\n24\n23\n22\n21\n20\n19\n18
 Text GLabel 11500 3200 0    50   Input ~ 0
 d7p91-PB5
 Text GLabel 11500 3300 0    50   Input ~ 0
@@ -493,8 +491,8 @@ Text GLabel 11500 3400 0    50   Input ~ 0
 d11p66-PC9
 Text GLabel 8850 7200 2    50   Input ~ 0
 d11p66-PC9
-Text GLabel 12250 3200 2    50   Input ~ 0
-dp-P
+Text GLabel 12000 3200 2    50   Input ~ 0
+d8p95-PB8
 Text GLabel 11500 3500 0    50   Input ~ 0
 d13p47-PB11
 Text GLabel 8850 5700 2    50   Input ~ 0
@@ -520,9 +518,9 @@ d23p51-PB12
 Text GLabel 8850 5800 2    50   Input ~ 0
 d23p51-PB12
 Text GLabel 11500 4100 0    50   Input ~ 0
-d25p41-PE11
-Text GLabel 7050 5700 0    50   Input ~ 0
-d25p41-PE11
+d25p43-PE13
+Text GLabel 7050 5900 0    50   Input ~ 0
+d25p43-PE13
 Text GLabel 11500 4200 0    50   Input ~ 0
 d27p63-PC6
 Text GLabel 8850 6900 2    50   Input ~ 0
@@ -532,39 +530,65 @@ d29p54-PB15
 Text GLabel 8850 6100 2    50   Input ~ 0
 d29p54-PB15
 Text GLabel 11500 4400 0    50   Input ~ 0
-Vaux1
+Vaux1v8
 Text GLabel 11500 4500 0    50   Input ~ 0
 GND
 Text GLabel 10300 5150 0    50   Input ~ 0
-Vaux1
-Text GLabel 12250 2900 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 3000 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 3100 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 3300 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 3400 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 3500 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 3600 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 3700 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 3800 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 3900 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 4000 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 4100 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 4200 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 4300 2    50   Input ~ 0
-dp-P
-Text GLabel 12250 4400 2    50   Input ~ 0
-dp-P
+Vaux1v8
+Text GLabel 12000 3000 2    50   Input ~ 0
+d4p87-PD6
+Text GLabel 12000 3100 2    50   Input ~ 0
+d6p69-PA10
+Text GLabel 12000 3300 2    50   Input ~ 0
+d10p15-PC0
+Text GLabel 12000 3400 2    50   Input ~ 0
+d12p46-PB10
+Text GLabel 12000 3500 2    50   Input ~ 0
+d14p64-PC7
+Text GLabel 12000 3600 2    50   Input ~ 0
+d16p78-PC10
+Text GLabel 12000 3700 2    50   Input ~ 0
+d18p70-PA11
+Text GLabel 12000 3800 2    50   Input ~ 0
+d20p67-PA8
+Text GLabel 12000 4000 2    50   Input ~ 0
+d24p52-PB13
+Text GLabel 12000 4100 2    50   Input ~ 0
+d26p53-PB14
+Text GLabel 12000 4200 2    50   Input ~ 0
+d28p31-PA7
+Text GLabel 12000 2900 2    50   Input ~ 0
+GND
+Text GLabel 12000 3900 2    50   Input ~ 0
+GND
+Text GLabel 12000 4300 2    50   Input ~ 0
+GND
+Text GLabel 12000 4400 2    50   Input ~ 0
+V3v3
+Text GLabel 10200 4950 2    50   Input ~ 0
+V3v3
+Text GLabel 8850 5400 2    50   Input ~ 0
+d8p95-PB8
+Text GLabel 7050 6900 0    50   Input ~ 0
+d4p87-PD6
+Text GLabel 8850 3900 2    50   Input ~ 0
+d6p69-PA10
+Text GLabel 8850 6300 2    50   Input ~ 0
+d10p15-PC0
+Text GLabel 8850 5600 2    50   Input ~ 0
+d12p46-PB10
+Text GLabel 8850 7000 2    50   Input ~ 0
+d14p64-PC7
+Text GLabel 8850 7300 2    50   Input ~ 0
+d16p78-PC10
+Text GLabel 8850 4000 2    50   Input ~ 0
+d18p70-PA11
+Text GLabel 8850 3700 2    50   Input ~ 0
+d20p67-PA8
+Text GLabel 8850 5900 2    50   Input ~ 0
+d24p52-PB13
+Text GLabel 8850 6000 2    50   Input ~ 0
+d26p53-PB14
+Text GLabel 8850 3600 2    50   Input ~ 0
+d28p31-PA7
 $EndSCHEMATC

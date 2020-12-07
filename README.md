@@ -1,2 +1,2 @@
 # game-and-watch-hardware
-![Progress-12-1-20](https://github.com/Upcycle-Electronics/game-and-watch-hardware/blob/main/gimp/board-pics/progress.png "Progress-12-1-20")
+![Version 1.0](https://raw.githubusercontent.com/Upcycle-Electronics/game-and-watch-hardware/main/gimp/board-pics/GnWtrace1v0.png "Version 1.0")
