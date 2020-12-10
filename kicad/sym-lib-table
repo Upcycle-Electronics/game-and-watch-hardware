@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name gnw_library)(type Legacy)(uri ${KIPRJMOD}/gnw_library.lib)(options "")(descr ""))
+)
