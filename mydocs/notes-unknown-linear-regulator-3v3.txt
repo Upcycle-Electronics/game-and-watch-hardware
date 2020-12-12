@@ -1,0 +1,38 @@
+3V3 REGULATOR
+IS NOT
+XC6221           device marks almost match but it is def not a footprint match from xrays
+TLV707335DQN     device marks do not match F6
+TLV70733DQNR     device marks do not match YH
+TLV70733DQNR1    device marks do not match BN
+TLV70733DQNT     device marks do not match YH
+TLV70733PDQN     device marks do not match TI
+TLV71733PDQN     device marks do not match VG
+TLV73333PDQN     device marks do not match FM
+TLV74233PDQN     device marks do not match 7Z
+TLV75533PDQN     device marks do not match AN
+LP5907SNX-3.3    device marks do not match CN
+TPS7A0533PDQN    device marks do not match CD
+TPS7A0333DQN     device marks do not match IH
+TPS7A0333PDQN    device marks do not match G5
+TPS7A0233DQN     device marks do not match IF
+TPS7A0233PDQN    device marks do not match FA
+LD6805K33P       device marks do not match 
+RP202K           device marks may match but Ricoh does not spec marking or guarantee consistency
+
+IS
+FOOTPRINT= X2SON-4 1X1mm // DFN1010C-4 // SOT1194-1 // 4-UDFN Exposed Pad
+PIN 1 = output
+PIN 2 = ground
+PIN 3 = enable (active high)
+PIN 4 = input
+
+PARTNUMBER= maybe top line "M33" (M is underlined) ; is probably either "OH" or "0H" from the second line
+
+
+
+
+
+
+
+
+
