@@ -1,4 +1,4 @@
-(module Button_Carbon-Contact_Round_6.5mm (layer F.Cu) (tedit 5FD550D8)
+(module Button_Carbon-Contact_Round_6.5mm (layer F.Cu) (tedit 5FD80968)
   (fp_text reference REF** (at 0.025 4.125) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -37,7 +37,7 @@
          (xy -0.9264 -2.78638) (xy -0.7232 -2.8956) (xy -0.51492 -2.99466) (xy -0.3422 -3.06324) (xy -0.11614 -3.13182)
          (xy 0.10484 -3.18516)) (width 0.01))
     ))
-  (pad 3 smd custom (at 0.725 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
+  (pad 1 smd custom (at 0.725 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -55,7 +55,7 @@
          (xy 0.9514 -2.78638) (xy 0.7482 -2.8956) (xy 0.53992 -2.99466) (xy 0.3672 -3.06324) (xy 0.14114 -3.13182)
          (xy -0.07984 -3.18516)) (width 0.01))
     ))
-  (pad 4 smd custom (at 2.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
+  (pad 2 smd custom (at 2.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
