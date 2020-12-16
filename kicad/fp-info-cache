@@ -1,4 +1,4 @@
-18908887146446359
+18913711370903359
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82991,6 +82991,27 @@ Molex_Easy-On_503480-0400_1x04-1MP_P1.00mm_Horizontal
 0
 6
 5
+gnw
+MountingHole_2.0mm
+
+
+0
+1
+1
+gnw
+MountingHole_NC_1.5mm
+
+
+0
+0
+0
+gnw
+MountingSlot_NC_1.3x2.2mm
+
+
+0
+0
+0
 gnw
 SW_PUSH_1P1T_Horizontal_Nintendo_GnW
 
