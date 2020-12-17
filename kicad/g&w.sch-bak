@@ -3949,17 +3949,6 @@ F 3 "~" H 14950 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H60
-U 1 1 5FF27294
-P 15250 1250
-F 0 "H60" H 15300 1200 50  0000 L CNN
-F 1 "MountingHole_Pad" H 15350 1208 50  0001 L CNN
-F 2 "gnw:MountingHole_2.0mm" H 15250 1250 50  0001 C CNN
-F 3 "~" H 15250 1250 50  0001 C CNN
-	1    15250 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H52
 U 1 1 5FF277CB
 P 14350 1250
@@ -3992,8 +3981,6 @@ F 3 "~" H 14950 1250 50  0001 C CNN
 	1    14950 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 15550 1500 2    50   Input ~ 0
-GND
 $Comp
 L Mechanical:MountingHole H53
 U 1 1 6001A8FD
@@ -4003,17 +3990,6 @@ F 1 "MountingHole" H 14450 1555 50  0001 L CNN
 F 2 "gnw:MountingSlot_NC_1.3x2.2mm" H 14350 1600 50  0001 C CNN
 F 3 "~" H 14350 1600 50  0001 C CNN
 	1    14350 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H56
-U 1 1 6001B6F9
-P 14650 1600
-F 0 "H56" H 14700 1500 50  0000 L CNN
-F 1 "MountingHole" H 14750 1555 50  0001 L CNN
-F 2 "gnw:MountingHole_NC_1.5mm" H 14650 1600 50  0001 C CNN
-F 3 "~" H 14650 1600 50  0001 C CNN
-	1    14650 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -4056,6 +4032,29 @@ Wire Wire Line
 Connection ~ 14650 1100
 Wire Wire Line
 	14650 1100 14950 1100
+Connection ~ 15500 1400
+$Comp
+L Mechanical:MountingHole H56
+U 1 1 6001B6F9
+P 14650 1600
+F 0 "H56" H 14700 1500 50  0000 L CNN
+F 1 "MountingHole" H 14750 1555 50  0001 L CNN
+F 2 "gnw:MountingHole_NC_1.5mm" H 14650 1600 50  0001 C CNN
+F 3 "~" H 14650 1600 50  0001 C CNN
+	1    14650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H60
+U 1 1 5FF27294
+P 15250 1250
+F 0 "H60" H 15300 1200 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15350 1208 50  0001 L CNN
+F 2 "gnw:MountingHole_2.0mm" H 15250 1250 50  0001 C CNN
+F 3 "~" H 15250 1250 50  0001 C CNN
+	1    15250 1250
+	1    0    0    -1  
+$EndComp
 $Comp
 L Mechanical:MountingHole_Pad H59
 U 1 1 603C51DE
@@ -4067,7 +4066,8 @@ F 3 "~" H 15250 950 50  0001 C CNN
 	1    15250 950 
 	1    0    0    -1  
 $EndComp
-Connection ~ 15500 1400
+Text GLabel 15550 1500 2    50   Input ~ 0
+GND
 Wire Wire Line
 	15550 1500 15500 1500
 Wire Wire Line

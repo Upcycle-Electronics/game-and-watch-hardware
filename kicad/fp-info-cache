@@ -1,4 +1,4 @@
-18913711370903359
+18915320344169359
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83038,5 +83038,12 @@ USB_C_Receptacle_NintendoG&W
 
 
 0
-32
+34
 25
+gnw
+gnw-TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
