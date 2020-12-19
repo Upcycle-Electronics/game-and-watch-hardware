@@ -1,6 +1,12 @@
 3V3 REGULATOR
-IS NOT
-XC6221           device marks almost match but it is def not a footprint match from xrays
+IS NOT:
+XC6220           no footprint match
+XC6221           no footprint match
+XC6222           no footprint match
+XC6223           device marks do not match
+XC6224           no footprint match
+XC6225           no footprint match
+XC6229           no footprint match
 TLV707335DQN     device marks do not match F6
 TLV70733DQNR     device marks do not match YH
 TLV70733DQNR1    device marks do not match BN
@@ -19,8 +25,18 @@ TPS7A0233PDQN    device marks do not match FA
 LD6805K33P       device marks do not match 
 RP202K           device marks may match but Ricoh does not spec marking or guarantee consistency
 
-IS
-FOOTPRINT= X2SON-4 1X1mm // DFN1010C-4 // SOT1194-1 // 4-UDFN Exposed Pad
+IS:
+SIZE:
+1mm x 1mm
+
+FOOTPRINT COULD BE:
+X2SON-4 1X1mm
+DFN1010C-4
+SOT1194-1
+4-UDFN Exposed Pad
+USPQ-4B03
+
+PINOUT:
 PIN 1 = output
 PIN 2 = ground
 PIN 3 = enable (active high)
@@ -29,10 +45,36 @@ PIN 4 = input
 PARTNUMBER= maybe top line "M33" (M is underlined) ; is probably either "OH" or "0H" from the second line
 
 
+----------------------------------------------------------------------------
+DC TO DC CONVERTER:
+IS: 
+SIZE:
+1.3mm x 1.8mm
 
+FOOTPRINT COULD BE:
+DSBGA-12
 
+IS NOT:
+listed on the TI website matching this package and marking codes
+TPS62350YZGR device marks do not match TPS62350
+TPS62352YZGR device marks do not match TPS62352
+TPS62353YZG_ device marks do not match TPS62353
+TPS62354YZGR device marks do not match TPS62354
+TPS62356YZG_ device marks do not match TPS62356
+ device marks do not match 
+ device marks do not match 
+ 
+MP28160 wrong size/wrong connections
+BD83070 wrong size/wrong connections
+MP5461 wrong size/wrong connections
+MAX77503 wrong size/wrong connections
 
+Almost Matching 12 ball footprints to ignore:
+CSP-12      1.4mm x 1.8mm
+UCSP50L1C   1.20mm × 1.60mm
+W121A1+3    1.398mm +/-0.0025 x 1.848mm +/-0.0025
 
-
+A=1 B=2 C=3
+1A
 
 
