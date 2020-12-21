@@ -1,4 +1,4 @@
-18918537197658359
+18921754999344359
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82957,6 +82957,13 @@ Button_Carbon-Contact_Round_6.5mm
 4
 3
 gnw
+DFN-4-1EP_1x1_P0.65mm_EP0.56x0.56mm
+
+
+0
+5
+5
+gnw
 JMP-0402-CLOSED
 
 
@@ -83034,6 +83041,13 @@ Toshiba_UF6_SOT363F
 6
 6
 gnw
+USB_C_Receptacle_JAE_DX07BN24JA2
+
+
+0
+32
+25
+gnw
 USB_C_Receptacle_NintendoG&W
 
 
@@ -83048,7 +83062,7 @@ WLCSP-12_1.18x1.95_Layout3x4_P0.4mm
 24
 12
 gnw
-WLCSP-12_1.28x1.68_Layout3x4_P0.4
+WLCSP-12_1.28x1.68_Layout3x4_P0.4mm
 
 
 0
