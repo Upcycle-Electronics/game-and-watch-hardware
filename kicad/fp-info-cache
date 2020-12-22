@@ -1,4 +1,4 @@
-18921754999344359
+18923365319818359
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82985,12 +82985,26 @@ JMP-0805-CLOSED
 2
 2
 gnw
+L_0806_2016Metric
+
+
+0
+2
+2
+gnw
 Molex_502078-3310_2Rows-33Pins-1MP_P0.5mm-int0.25mm_Horizontal
 
 
 0
 35
 34
+gnw
+Molex_502078-3310_2Rows-33Pins-1MP_P0.5mm-int0.25mm_Horizontal_ReversePinOut
+
+
+0
+0
+0
 gnw
 Molex_Easy-On_503480-0400_1x04-1MP_P1.00mm_Horizontal
 
@@ -83046,13 +83060,6 @@ USB_C_Receptacle_JAE_DX07BN24JA2
 
 0
 32
-25
-gnw
-USB_C_Receptacle_NintendoG&W
-
-
-0
-34
 25
 gnw
 WLCSP-12_1.18x1.95_Layout3x4_P0.4mm
