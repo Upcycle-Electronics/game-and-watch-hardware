@@ -7,3 +7,5 @@
 
 ![progress](https://raw.githubusercontent.com/Upcycle-Electronics/game-and-watch-hardware/main/Images-Version-Current/workinprogress/progress.jpg "progress")
 
+
+![PinMap](https://raw.githubusercontent.com/Upcycle-Electronics/game-and-watch-hardware/main/Images-Version-Current/GnWuCpinmap-port-oriented.jpg "PinMap")
