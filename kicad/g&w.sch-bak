@@ -672,7 +672,7 @@ F 3 "~" H 2300 8150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 2600 8200 2    50   Input ~ 0
-GND
+usbGND
 $Comp
 L Device:R R32
 U 1 1 5FDE7339
@@ -4365,4 +4365,9 @@ Wire Wire Line
 Wire Wire Line
 	15050 4950 15050 5000
 Connection ~ 15050 5000
+Text GLabel 900  10700 0    50   Input ~ 0
+usbGND
+Wire Wire Line
+	900  10700 950  10700
+Connection ~ 950  10700
 $EndSCHEMATC

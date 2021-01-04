@@ -5,11 +5,11 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "G&W"
-Date "2020-12-19"
-Rev "1V1"
+Date "2021-01-03"
+Rev "1V2"
 Comp "github.com/Upcycle-Electronics/game-and-watch-hardware"
 Comment1 "Licensed under the MIT License."
-Comment2 "Copyright (c) 2020 Jake Little"
+Comment2 "Copyright (c) 2021 Jake Little"
 Comment3 ""
 Comment4 ""
 $EndDescr
