@@ -1,5 +1,5 @@
 # game-and-watch-hardware
-![Version 3.1](https://raw.githubusercontent.com/Upcycle-Electronics/game-and-watch-hardware/main/Images-Version-Current/GnWtrace3v2.jpg "Version 3.1")
+![Version 3.2](https://raw.githubusercontent.com/Upcycle-Electronics/game-and-watch-hardware/main/Images-Version-Current/GnWtrace3v2.jpg "Version 3.2")
 
 
 ![Version 1.2](https://raw.githubusercontent.com/Upcycle-Electronics/game-and-watch-hardware/main/Images-Version-Current/GnWschematic1v2.jpg "Version 1.2")
